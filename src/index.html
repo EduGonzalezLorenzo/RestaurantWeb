@@ -13,24 +13,21 @@
 
 <body>
   <header class="container-fluid">
-    <div class="row" id="tittle">
+    <div class="row">
       <img class="col-1" src="/src/img/Logo.jpg" alt="Logo">
-      <h1 class="text-center col-10 pt-5">Brasería Vulcano</h1>
-      <!-- <img class="col-10" src="/src/img/Titulo.jpg" alt="Logo"> -->
-      <img class="col-1" src="/src/img/Logo.jpg" alt="Logo">
+      <button type="button" class="col btn btn-dark btn-block">Inicio</button>
+      <button type="button" class="col btn btn-dark btn-block">Carta</button>
+      <button type="button" class="col btn btn-dark btn-block">Ubicación</button>
+      <button type="button" class="col btn btn-dark btn-block">Contacto</button>
+
     </div>
-    <nav class="row text-bg-dark">
-      <button type="button" class="col-sm-3 btn btn-dark btn-block">Inicio</button>
-      <button type="button" class="col-sm-3 btn btn-dark btn-block">Carta</button>
-      <button type="button" class="col-sm-3 btn btn-dark btn-block">Ubicación</button>
-      <button type="button" class="col-sm-3 btn btn-dark btn-block">Contacto</button>
-    </nav>
+    
   </header>
   <main class="container">
 
     <article id="Inicio" class="container-fluid border">
-      <h2 class="text-center">Inicio</h2>
-      <section class="row text-center border">
+      <h1 class="text-center">Inicio</h1>
+      <section class="informacion row text-center border">
         <div class="col-sm-6">
           <h3>Una braseria con encanto mallorquín</h3>
           <p> Descripción del local</p>
@@ -39,59 +36,56 @@
           <img src="/src/img/Vulcano.PNG" class="img-thumbnail" alt="">
         </div>
       </section>
-      <section class="row text-center">
+      <section class="informacion row text-center">
         <div class="col-sm-6">
           <h3>De taller a restaurante</h3>
           <p> Historia de reforma</p>
         </div>
         <div class="col-sm-6">
-          <div class="row">
-            <img src="/src/img/Taller2.jpg" class="img-thumbnail col-12" alt="">
-          </div>
-          <div class="row">
-            <img src="/src/img/Taller1.jpg" class="img-thumbnail col-6" alt="">
-            <img src="/src/img/Taller3.jpg" class="img-thumbnail col-6" alt="">
+            <img src="/src/img/Taller.png" class="img-thumbnail float-center" alt="El restaurante cuando era un taller de coches">
           </div>
         </div>
       </section>
     </article>
     <article id="Carta" class="container-fluid border">
-      <h2 class="text-center">Carta</h2>
+      <h1 class="text-center">Carta</h1>
       <section class="row text-center border">
-        <button data-bs-toggle="collapse" data-bs-target="#Entrantes">Entrantes</button>
-        <p>Ideales para empezar una comida en compañia</p>
+          <button id="botonEntrantes" data-bs-toggle="collapse" data-bs-target="#Entrantes">
+            <h3>Entrantes</h3>Ideales para empezar una comida en compañia </button>
+        </div>
         <div id="Entrantes" class="container-fluid border collapse">
           <dl class="row">
-            <div class="col-xl-3 col-xs-12">
+            <div class="col-xl-3 col-xs-12 border">
               <dt>Croquetas</dt>
               <dd>- Variado de croquetas de jamón, cocido y bacalao</dd>
             </div>
-            <div class="col-xl-3 col-xs-12">
+            <div class="col-xl-3 col-xs-12 border">
               <dt>Anchoas Donsotiarra</dt>
             </div>
-            <div class="col-xl-3 col-xs-12">
+            <div class="col-xl-3 col-xs-12 border">
               <dt>Anchoas del Cantabrico</dt>
             </div>
-            <div class="col-xl-3 col-xs-12">
+            <div class="col-xl-3 col-xs-12 border">
               <dt>Nachos Vulcano</dt>
               <dd>- Nachos con salsa boloñesa y queso</dd>
             </div>
-            <div class="col-xl-3 col-xs-12">
+            <div class="col-xl-3 col-xs-12 border">
               <dt>Pimientos de Padrón</dt>
             </div>
-            <div class="col-xl-3 col-xs-12">
+            <div class="col-xl-3 col-xs-12 border">
               <dt>Patatas bravas Vulcano</dt>
               <dd>- Patatas fritas con salsa brava picante</dd>
             </div>
-            <div class="col-xl-3 col-xs-12">
+            <div class="col-xl-3 col-xs-12 border">
               <dt>Calamaras a la Andaluza</dt>
               <dd>- Calamares enharinados y fritos</dd>
             </div>
           </dl>
         </div>
-        <button data-bs-toggle="collapse" data-bs-target="#Tablas">Tablas</button>
-        <p>El mejor embutido acompañado con pan tostado, aceite y tomate</p>
-        <div id="Tablas" class="container-fluid border collapse">
+        <button data-bs-toggle="collapse" data-bs-target="#Tablas">
+          <h3>Tablas</h3> El mejor embutido acompañado con pan tostado, aceite y tomate
+        </button>
+        <div id="Tablas" class="container-fl   id border collapse">
           <dl class="row">
             <div class="col-sm-3">
               <dt>Tabla de Jamón Ibérico de cebo</dt>
