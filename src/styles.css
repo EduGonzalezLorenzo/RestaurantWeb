@@ -1,4 +1,15 @@
-h1 {
-    color: red;
-    font-family: cursive;
-}
+body {
+    background-image: url("img/fondo.png");
+    background-size: 100%;
+    background-repeat: repeat;
+    background-attachment: fixed;
+  }
+
+  header{
+    background-color: black;
+  }
+
+  article{
+    background-color: darkred;
+    color: black;
+  }
