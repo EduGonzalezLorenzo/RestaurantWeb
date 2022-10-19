@@ -1,28 +1,54 @@
+@font-face {
+  font-family: menuFont;
+  src: url(fonts/CaveatBrush-Regular.ttf);
+}
+
+@font-face {
+  font-family: TitleFont;
+  src: url(fonts/Oswald-VariableFont_wght.ttf);
+}
+
 body {
-    background-image: url("img/fondo.jpg");
-    background-size: 100%;
-    background-repeat: repeat;
-    background-attachment: fixed;
-  }
+  background-image: url("img/fondo.jpg");
+  background-size: 100%;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
 
-  header{
-    position:fixed;
-  }
+h1 {
+  background-image: url(img/FondoMadera.jpg);
+  font-family: TitleFont;
+  font-size: 40px;
+  position: relative;
+  color: white;
+}
 
-  h1{
-    background-image: url();
-  }
+#Horario{
+  align-self: center;
+  text-align: center;
+}
 
-  article{
-    background-color: darkred;
-    color: black;
-    margin: 5%;
-    padding: 5%;
-  }
+#Mapa{
+  min-height: 500px;
+  margin: 5%;
+}
 
-  .informacion{
-    padding: 2%;
-  }
+article {
+  background-color: rgba(51, 24, 24, 0.815);
+  color: white;
+  margin-bottom: 5%;
+}
 
+#menu {
+  font-family: menuFont;
+  font-size: 40px;
+}
 
+section{
+  padding-top: 20px;
 
+}
+
+.informacion{
+  align-self: center;
+}

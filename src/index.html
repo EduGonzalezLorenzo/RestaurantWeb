@@ -13,10 +13,10 @@
 
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
   <img class="container-fluid" src="/src/img/Titulo.jpg" alt="">
-  <header class="container-fluid sticky-top">    
+  <header class="container-fluid sticky-top">
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
       <div class="container-fluid row">
-        <ul class="navbar-nav">
+        <ul id="menu" class="navbar-nav">
           <li class="nav-item col">
             <a class="nav-link text-center" href="#Inicio">Inicio</a>
           </li>
@@ -37,10 +37,10 @@
   </header>
 
   <main class="container">
-    <article id="Inicio" class="container-fluid border">
+    <article id="Inicio" class="container-fluid ">
       <h1 class="text-center">Inicio</h1>
-      <section class="informacion row text-center border">
-        <div class="col-sm-6">
+      <section class="row text-center ">
+        <div class="col-sm-6 informacion">
           <h3>Una braseria con encanto mallorquín</h3>
           <p> Descripción del local</p>
         </div>
@@ -48,49 +48,49 @@
           <img src="/src/img/Vulcano.PNG" class="img-thumbnail" alt="">
         </div>
       </section>
-      <section class="informacion row text-center">
-        <div class="col-sm-6">
-          <h3>De taller a restaurante</h3>
-          <p> Historia de reforma</p>
-        </div>
+      <section class="row text-center">
         <div class="col-sm-6">
           <img src="/src/img/Taller.png" class="img-thumbnail float-center"
             alt="El restaurante cuando era un taller de coches">
         </div>
+        <div class="col-sm-6 informacion">
+          <h3>De taller a restaurante</h3>
+          <p> Historia de reforma</p>
+        </div>
         </div>
       </section>
     </article>
-    <article id="Carta" class="container-fluid border">
+    <article id="Carta" class="container-fluid ">
       <h1 class="text-center">Carta</h1>
-      <section class="row text-center border">
+      <section class="row text-center .mx-auto">
         <button id="botonEntrantes" data-bs-toggle="collapse" data-bs-target="#Entrantes">
           <h3>Entrantes</h3>Ideales para empezar una comida en compañia
         </button>
         </div>
-        <div id="Entrantes" class="container-fluid border collapse">
+        <div id="Entrantes" class="container-fluid  collapse">
           <dl class="row">
-            <div class="col-xl-3 col-xs-12 border">
+            <div class="col-xl-3 col-xs-12 ">
               <dt>Croquetas</dt>
               <dd>- Variado de croquetas de jamón, cocido y bacalao</dd>
             </div>
-            <div class="col-xl-3 col-xs-12 border">
+            <div class="col-xl-3 col-xs-12 ">
               <dt>Anchoas Donsotiarra</dt>
             </div>
-            <div class="col-xl-3 col-xs-12 border">
+            <div class="col-xl-3 col-xs-12 ">
               <dt>Anchoas del Cantabrico</dt>
             </div>
-            <div class="col-xl-3 col-xs-12 border">
+            <div class="col-xl-3 col-xs-12 ">
               <dt>Nachos Vulcano</dt>
               <dd>- Nachos con salsa boloñesa y queso</dd>
             </div>
-            <div class="col-xl-3 col-xs-12 border">
+            <div class="col-xl-3 col-xs-12 ">
               <dt>Pimientos de Padrón</dt>
             </div>
-            <div class="col-xl-3 col-xs-12 border">
+            <div class="col-xl-3 col-xs-12 ">
               <dt>Patatas bravas Vulcano</dt>
               <dd>- Patatas fritas con salsa brava picante</dd>
             </div>
-            <div class="col-xl-3 col-xs-12 border">
+            <div class="col-xl-3 col-xs-12 ">
               <dt>Calamaras a la Andaluza</dt>
               <dd>- Calamares enharinados y fritos</dd>
             </div>
@@ -99,7 +99,7 @@
         <button data-bs-toggle="collapse" data-bs-target="#Tablas">
           <h3>Tablas</h3> El mejor embutido acompañado con pan tostado, aceite y tomate
         </button>
-        <div id="Tablas" class="container-fl   id border collapse">
+        <div id="Tablas" class="container-fl   id  collapse">
           <dl class="row">
             <div class="col-sm-3">
               <dt>Tabla de Jamón Ibérico de cebo</dt>
@@ -124,20 +124,31 @@
         </div>
       </section>
     </article>
-    <article id="Ubicacion" class="container-fluid border">
-      <h2 class="text-center">Ubicación</h2>
-      <div class="map-container-5">
-        <iframe class="mx-auto d-block img-fluid"
+    <article id="Ubicacion" class="container-fluid ">
+      <h1 class="text-center">Horario y uicación</h1>
+      <div class="row">
+        <div class="col-xl-6 col-sm-12" id="Horario">
+          <h2>Horario</h2>
+          <h3>De Martes a Sabado</h3>
+          <h4>De 8:30h a 23:00h</h4>
+          <h3>Domingo</h3>
+          <h4>De 9h a 16h</h4>
+          <h3>LUNES CERRADO</h3>
+        </div>
+        <div class="col-xl-6 col-sm-12">
+           <iframe id="Mapa" class="mx-auto d-block img-fluid"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d914.298128816024!2d2.6585477802071638!3d39.57493612720438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4fc1ab3bb8781186!2sVulcano%20Braser%C3%ADa%20Cafeter%C3%ADa!5e0!3m2!1ses!2ses!4v1666006975263!5m2!1ses!2ses"
           width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+       
       </div>
 
 
 
     </article>
-    <article id="Contacto" class="container-fluid border">
-      <h2 class="text-center">Contacto</h2>
+    <article id="Contacto" class="container-fluid ">
+      <h1 class="text-center">Contacto</h1>
       <p class="text-center"> Para contactar con el restaurante llame al <a href="tel:971068074">971 06 80 74</a> o
         envie un correo a la dirección
         <a href="mailto:vulcanoaragon31@gmail.com">vulcanoaragon31@gmail.com</a>. Si lo prefiere puede rellenar el
