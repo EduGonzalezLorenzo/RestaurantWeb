@@ -12,6 +12,18 @@
   font-family: HorarioFont;
   src: url(fonts/Kalam-Bold.ttf);
 }
+header{
+  background-color: black;
+  color: white;
+}
+
+header ul{
+  justify-content: center;
+}
+
+a{
+ text-decoration: none;
+}
 
 body {
   background-image: url("img/fondo.jpg");
@@ -40,8 +52,7 @@ article {
 }
 
 section {
-  padding-top: 20px;
-
+  padding: 20px;
 }
 
 .informacion {
@@ -49,7 +60,7 @@ section {
 }
 
 main {
-  padding: 10%;
+  padding: 100px;
 }
 
 
@@ -65,7 +76,7 @@ main {
 
 #Mapa {
   min-height: 500px;
-  
+  max-width: 500px;
 }
 
 

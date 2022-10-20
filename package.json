@@ -1,5 +1,5 @@
 {
-    "name": "horario",
+    "name": "restaurantweb",
     "version": "1.0.0",
     "scripts": {
         "start": "npx parcel src/index.html"
