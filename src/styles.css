@@ -8,29 +8,24 @@
   src: url(fonts/Oswald-VariableFont_wght.ttf);
 }
 
+@font-face {
+  font-family: HorarioFont;
+  src: url(fonts/Kalam-Bold.ttf);
+}
+
 body {
   background-image: url("img/fondo.jpg");
-  background-size: 100%;
-  background-repeat: repeat;
+  background-size: cover;
+  background-repeat:no-repeat;
   background-attachment: fixed;
 }
 
 h1 {
-  background-image: url(img/FondoMadera.jpg);
+  background-image: url("img/FondoMadera.jpg");
   font-family: TitleFont;
   font-size: 40px;
   position: relative;
   color: white;
-}
-
-#Horario{
-  align-self: center;
-  text-align: center;
-}
-
-#Mapa{
-  min-height: 500px;
-  margin: 5%;
 }
 
 article {
@@ -44,11 +39,73 @@ article {
   font-size: 40px;
 }
 
-section{
+section {
   padding-top: 20px;
 
 }
 
-.informacion{
+.informacion {
   align-self: center;
+}
+
+main {
+  padding: 10%;
+}
+
+
+/*CSS Horario y Mapa*/
+
+#Horario {
+  align-self: center;
+  text-align: center;
+  background-image: url("/src/img/Horario.jpg");
+  font-family: HorarioFont;
+
+}
+
+#Mapa {
+  min-height: 500px;
+  
+}
+
+
+/* CSS contacto*/
+
+#Contacto form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  margin: 20px 0 2px;
+}
+
+input, select, textarea {
+  min-width: 280px;
+}
+
+#terminos {
+  margin: 20px 0;
+}
+
+#terminos input {
+  max-width: none;
+  min-width: 0;
+  cursor: pointer;
+}
+
+.boton {
+  width: fit-content;
+  max-width: none;
+  min-width: 0;
+  padding: 5px;
+  margin: 20px 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.boton:hover {
+  background-color: gray;
+  color: white;
 }
