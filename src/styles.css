@@ -44,7 +44,6 @@ h1 {
 article {
   background-color: rgba(51, 24, 24, 0.815);
   color: white;
-  margin-bottom: 5%;
 }
 
 #menu {
@@ -58,6 +57,7 @@ section {
 
 .informacion {
   align-self: center;
+  padding: 10%;
 }
 
 main {
@@ -74,9 +74,11 @@ dl{
   background-color: rgba(0, 0, 0, 0.527);
   padding: 2%;
 }
+
 dt{
   padding-top: 5%;
 }
+
 dd{
   padding-bottom: 5%;
 }
@@ -85,15 +87,16 @@ dd{
 
 #Horario {
   align-self: center;
+  justify-content: center;
   text-align: center;
   background-image: url("/src/img/Horario.jpg");
   font-family: HorarioFont;
-
 }
 
 #Mapa {
   min-height: 500px;
   max-width: 500px;
+  padding: 5%;
 }
 
 
