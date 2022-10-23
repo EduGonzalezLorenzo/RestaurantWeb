@@ -83,6 +83,10 @@ dd{
   padding-bottom: 5%;
 }
 
+dl > div > div{
+  border-bottom: 1px solid;
+}
+
 /*CSS Horario y Mapa*/
 
 #Horario {
