@@ -12,6 +12,10 @@
   font-family: HorarioFont;
   src: url(fonts/Kalam-Bold.ttf);
 }
+
+button{
+  text-align: center !important;
+}
 header{
   background-color: black;
   color: white;
@@ -44,6 +48,10 @@ h1 {
 article {
   background-color: rgba(51, 24, 24, 0.815);
   color: white;
+  margin-right: 5%;
+  margin-left: 5%;
+  padding: 2%;
+
 }
 
 #menu {
@@ -53,6 +61,7 @@ article {
 
 section {
   padding: 20px;
+  margin: 20px;
 }
 
 .informacion {
@@ -65,15 +74,6 @@ main {
 }
 
 /* CSS Carta*/
-#cartaInfo{
-  padding-left: 10%;
-  padding-right: 10%;
-}
-
-dl{
-  background-color: rgba(0, 0, 0, 0.527);
-  padding: 2%;
-}
 
 dt{
   padding-top: 5%;
@@ -94,13 +94,17 @@ dd{
 }
 
 #Mapa {
-  min-height: 500px;
+  min-height: 400px;
   max-width: 500px;
   padding: 5%;
 }
 
 
 /* CSS contacto*/
+
+.fechahora{
+  width: min-content;
+}
 
 #Contacto form {
   display: flex;
@@ -139,4 +143,8 @@ input, select, textarea {
 .boton:hover {
   background-color: gray;
   color: white;
+}
+
+form > div{
+  margin: 1%;
 }

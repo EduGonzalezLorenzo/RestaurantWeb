@@ -41,7 +41,7 @@
             mallorquina,
             gallega y castellana conviven en armonía. Desde sopas mallorquinas hasta pulpo a la gallega, pasando por
             carnes
-            de excelente calidad. ¡Ven a visitarnos y compruebalo por ti mismo!</p>
+            de excelente calidad. ¡Ven a visitarnos y compruébalo por ti mismo!</p>
         </div>
         <div class="col-12 col-md-6">
           <img src="/src/img/Vulcano.png" class="img-thumbnail" alt="">
@@ -66,204 +66,486 @@
 
     <article id="Carta" class="tab-pane fade show active">
       <h1 class="text-center">Carta</h1>
-      <section class="row text-center .mx-auto cartaInfo">
-        <button id="botonEntrantes" data-bs-toggle="collapse" data-bs-target="#Entrantes">
-          <h2>Para picar</h2>Ideales para empezar una comida en compañia
-        </button>
-        <div id="Entrantes" class="collapse">
-          <dl class="row">
-            <div class="col-12 col-md-4">
-              <dt>Croquetas</dt>
-              <dd>Variado de croquetas de jamón, cocido y bacalao</dd>
+      <div class="accordion-flush" id="Menu">
+
+        <section class="accordion accordion-item">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#EntrantesCollapse"
+            aria-expanded="false" aria-controls="EntrantesCollapse">
+            <h2 class="accordion-header" id="Entrantes">Para picar</h2>
+          </button>
+          <div id="EntrantesCollapse" class="accordion-collapse collapse show" aria-labelledby="Entrantes"
+            data-bs-parent="#Menu">
+            <div class="accordion-body">
+              <dl>
+                <div class="row justify-content-around">
+                  <div class="col-12 col-md-4">
+                    <dt>Croquetas</dt>
+                    <dd>Variado de croquetas de jamón, cocido y bacalao</dd>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <dt>Anchoas Donsotiarra</dt>
+                    <dd>Ración de anchoas donostiarras con pan tostado y aceite de oliva virgen extra</dd>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <dt>Anchoas del Cantabrico</dt>
+                    <dd>Ración de anchoas del cantábrico con pan tostado y aceite de oliva virgen extra</dd>
+                  </div>
+                </div>
+                <div class="row justify-content-around">
+                  <div class="col-12 col-md-4">
+                    <dt>Nachos Vulcano</dt>
+                    <dd>Nachos con salsa boloñesa y queso fundido</dd>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <dt>Pimientos de Padrón</dt>
+                    <dd>Ración de pimientos del padron salteados con un toque sal</dd>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <dt>Patatas bravas Vulcano</dt>
+                    <dd>Patatas fritas con salsa brava con un toque picante</dd>
+                  </div>
+                </div>
+                <div class="row justify-content-around">
+                  <div class="col-12 col-md-4">
+                    <dt>Calamaras a la Andaluza</dt>
+                    <dd>Calamares enharinados y fritos</dd>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <dt>Gambas al ajillo</dt>
+                    <dd>Cacerola de gambas fritas con ajo laminado y guindilla</dd>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <dt>Chipirones crijientes</dt>
+                    <dd>Chipirones enharinados y fritos</dd>
+                  </div>
+                </div>
+                <div class="row justify-content-evenly">
+                  <div class="col-12 col-md-4">
+                    <dt>Revuelto de setas con gambas o jamón ibérico</dt>
+                    <dd>Huevos revueltos con setas acompañadas de gambas o jamón</dd>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <dt>Mejillones tigre</dt>
+                    <dd>Ración de mejillones rellenos, rebozados y fritos</dd>
+                  </div>
+                </div>
+              </dl>
             </div>
-            <div class="col-12 col-md-4">
-              <dt>Anchoas Donsotiarra</dt>
-              <dd>Ración de anchoas donostiarras con pan tostado y aceite de oliva virgen extra</dd>
+          </div>
+        </section>
+
+        <section class="accordion accordion-item">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#TablasCollapse"
+            aria-expanded="false" aria-controls="TablasCollapse">
+            <h2 class="accordion-header" id="Tablas">Tablas Artesanas</h2>
+          </button>
+          <div id="TablasCollapse" class="accordion-collapse collapse" aria-labelledby="Tablas" data-bs-parent="#Menu">
+            <div class="accordion-body">
+              <dl>
+                <div class="row justify-content-around">
+                  <div class="col-12 col-md-4">
+                    <dt>Tabla de Jamón Ibérico de cebo</dt>
+                    <dd>Con jamón ibérico de cebo cortado a mano y al momento</dd>
+                    </dd>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <dt>Tabla de Jamón Serrano</dt>
+                    <dd>Con jamón serrano cortado a mano y al momento</dd>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <dt>Tabla de Jamón Ibérico de cebo y queso</dt>
+                    <dd>Con jamón ibérico de cebo cortado a mano y al momento. Acompañado de un surtido de quesos.</dd>
+                  </div>
+                </div>
+                <div class="row justify-content-around">
+                  <div class="col-12 col-md-4">
+                    <dt>Tabla de Jamón Serrano y queso</dt>
+                    <dd>Con jamón serrano cortado a mano y al momento. Acompañado de un surtido de quesos.</dd>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <dt>Tabla de queso</dt>
+                    <dd>Surtido de nuestros mejores quesos</dd>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <dt>Tabla Vulcano</dt>
+                    <dd>Con jamón serrano, queso, lomo, chorizo y salchichón</dd>
+                  </div>
+                </div>
+              </dl>
             </div>
-            <div class="col-12 col-md-4">
-              <dt>Anchoas del Cantabrico</dt>
-              <dd>Ración de anchoas del cantábrico con pan tostado y aceite de oliva virgen extra</dd>
+          </div>
+        </section>
+
+        <section class="accordion accordion-item">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#CarnesCollapse"
+            aria-expanded="false" aria-controls="CarnesCollapse">
+            <h2 class="accordion-header" id="Carnes">Carnes clásicas</h2>
+          </button>
+          <div id="CarnesCollapse" class="accordion-collapse collapse" aria-labelledby="Carnes" data-bs-parent="#Menu">
+            <div class="accordion-body">
+              <dl>
+                <div class="row justify-content-around">
+                  <div class="col-12 col-md-4">
+                    <dt>Entrecot</dt>
+                    <dd>El corte clásico de ternera que no defrauda.</dd>
+                    </dd>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <dt>Entrecot madurado</dt>
+                    <dd>Carne madurada 45 días para potenciar el sabor y mejorar la textura.</dd>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <dt>Chuleton</dt>
+                    <dd>Si quieres darte un homenaje, este es tu corte.</dd>
+                  </div>
+                </div>
+                <div class="row justify-content-around">
+                  <div class="col-12 col-md-4">
+                    <dt>Chuleton madurado</dt>
+                    <dd>Carne madurada 45 días para potenciar el sabor y mejorar la textura.</dd>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <dt>Solomillo de ternera</dt>
+                    <dd>El corte más gourmet.</dd>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <dt>Churrasco</dt>
+                    <dd>Corte de costilla de ternera al estilo gallego</dd>
+                  </div>
+                </div>
+                <div class="row justify-content-around">
+                  <div class="col-12 col-md-4">
+                    <dt>Parrillada de carne</dt>
+                    <dd>Lomo de cerdo, pechuga de pollo, churrasco. Para los indecisos</dd>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <dt>Torrada</dt>
+                    <dd>Sobrasada, panceta.Lo mejores cortes de Mallorca.</dd>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <dt>Chuletas de cordero</dt>
+                    <dd>Chuletas de cordero a la brasa aliñadas.</dd>
+                  </div>
+                </div>
+              </dl>
             </div>
-            <div class="col-12 col-md-4">
-              <dt>Nachos Vulcano</dt>
-              <dd>Nachos con salsa boloñesa y queso fundido</dd>
+          </div>
+        </section>
+
+        <section class="accordion accordion-item">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#BurguerCollapse"
+            aria-expanded="false" aria-controls="BurguerCollapse">
+            <h2 class="accordion-header" id="Burguer">Hamburguesas (200gr de carne)</h2>
+          </button>
+          <div id="BurguerCollapse" class="accordion-collapse collapse" aria-labelledby="Burguer"
+            data-bs-parent="#Menu">
+            <div class="accordion-body">
+              <dl>
+                <div class="row justify-content-around">
+                  <div class="col-12 col-md-4">
+                    <dt>Clasica</dt>
+                    <dd>Lechuga, tomate, y queso.</dd>
+                    </dd>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <dt>Vulcano</dt>
+                    <dd>A la clásica le añadimos bacon, huevo, y salsa Vulcano.</dd>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <dt>Balear</dt>
+                    <dd>Sobrasada, camaiot, queso mahones, lechuga, tomate.</dd>
+                  </div>
+                </div>
+                <div class="row justify-content-around">
+                  <div class="col-12 col-md-4">
+                    <dt>Ibérica</dt>
+                    <dd>Jamón ibérico, bacon y queso.</dd>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <dt>Gourmet</dt>
+                    <dd>Queso azul, mermelada de arandanos, tomate y lechuga.</dd>
+                  </div>
+                </div>
+              </dl>
             </div>
-            <div class="col-12 col-md-4">
-              <dt>Pimientos de Padrón</dt>
-              <dd>Ración de pimientos del padron salteados con un toque sal</dd>
+          </div>
+        </section>
+
+        <section class="accordion accordion-item">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#MarCollapse"
+            aria-expanded="false" aria-controls="MarCollapse">
+            <h2 class="accordion-header" id="Mar">Algo del mar</h2>
+          </button>
+          <div id="MarCollapse" class="accordion-collapse collapse" aria-labelledby="Mar" data-bs-parent="#Menu">
+            <div class="accordion-body">
+              <dl>
+                <div class="row justify-content-around">
+                  <div class="col-12 col-md-4">
+                    <dt>Calamar a la brasa</dt>
+                    <dd>Acompañado de patatas fritas, asada o ensalada.</dd>
+                    </dd>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <dt>Sepia a la brasa</dt>
+                    <dd>Acompañado de patatas fritas, asada o ensalada.</dd>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <dt>Gambas langostineras a la brasa</dt>
+                    <dd>Acompañado de patatas fritas, asada o ensalada.</dd>
+                  </div>
+                </div>
+                <div class="row justify-content-around">
+                  <div class="col-12 col-md-4">
+                    <dt>Pulpo a la gallega</dt>
+                    <dd>Pulpo, mezcla de pimentón dulce y picante, patata y aceite de oliva virgen extra. Combinación
+                      perfecta.</dd>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <dt>Pulpo a la brasa</dt>
+                    <dd>Acompañado de patatas fritas, asada o ensalada.</dd>
+                  </div>
+                </div>
+              </dl>
             </div>
-            <div class="col-12 col-md-4">
-              <dt>Patatas bravas Vulcano</dt>
-              <dd>Patatas fritas con salsa brava con un toque picante</dd>
+          </div>
+        </section>
+
+        <section class="accordion accordion-item">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#NiñosCollapse"
+            aria-expanded="false" aria-controls="NiñosCollapse">
+            <h2 class="accordion-header" id="Niños">Para los niños. Incluye una bebida y un postre (máximo 12 años)</h2>
+          </button>
+          <div id="NiñosCollapse" class="accordion-collapse collapse" aria-labelledby="Niños" data-bs-parent="#Menu">
+            <div class="accordion-body">
+              <dl>
+                <div class="row justify-content-around">
+                  <div class="col-12 col-md-4">
+                    <dt>Menú Escalope</dt>
+                    <dd>Escalope de pollo acompañado de huevo frito y patatas fritas.</dd>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <dt>Menú Calamar</dt>
+                    <dd>Calamar crujiente acompañado de croquetas y patatas fritas.</dd>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <dt>Menú Espaguetis</dt>
+                    <dd>Espaguetis con salsa boloñesa.</dd>
+                  </div>
+                </div>
+                <div class="row justify-content-around">
+                  <div class="col-12 col-md-4">
+                    <dt>Menú Hamburguesa</dt>
+                    <dd>Hamburguesa de ternera acompañada de huevo frito y patatas fritas.</dd>
+                  </div>
+                </div>
+              </dl>
             </div>
-            <div class="col-12 col-md-4">
-              <dt>Calamaras a la Andaluza</dt>
-              <dd>Calamares enharinados y fritos</dd>
+          </div>
+        </section>
+
+        <section class="accordion accordion-item">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#VegetalCollapse"
+            aria-expanded="false" aria-controls="VegetalCollapse">
+            <h2 class="accordion-header" id="Vegetal">Algo vegetal</h2>
+          </button>
+          <div id="VegetalCollapse" class="accordion-collapse collapse" aria-labelledby="Vegetal"
+            data-bs-parent="#Menu">
+            <div class="accordion-body">
+              <dl>
+                <div class="row justify-content-around">
+                  <div class="col-12 col-md-4">
+                    <dt>Parrillada de hortalizas</dt>
+                    <dd>Pimiento, cebolla, tomate, calabacín y berenjena a la parrilla.</dd>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <dt>Hamburguesa vegetariana</dt>
+                    <dd>Hamburguesa de lentejas, queso, lechuga, tomate y cebolla.</dd>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <dt>Espaguetis</dt>
+                    <dd>Espaguetis con salsa de tomate y oregano.</dd>
+                  </div>
+                </div>
+                <div class="row justify-content-around">
+                  <div class="col-12 col-md-4">
+                    <dt>Ensalada vegetal</dt>
+                    <dd>Lechuga, cebolla, tomate, zanahoria, alcachofa y maíz.</dd>
+                  </div>
+                </div>
+              </dl>
             </div>
-            <div class="col-12 col-md-4">
-              <dt>Gambas al ajillo</dt>
-              <dd>Cacerola de gambas fritas con ajo laminado y guindilla</dd>
+          </div>
+        </section>
+
+        <section class="accordion accordion-item">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#MallorcaCollapse"
+            aria-expanded="false" aria-controls="MallorcaCollapse">
+            <h2 class="accordion-header" id="Mallorca">Un poco de Mallorca</h2>
+          </button>
+          <div id="MallorcaCollapse" class="accordion-collapse collapse" aria-labelledby="Mallorca"
+            data-bs-parent="#Menu">
+            <div class="accordion-body">
+              <dl>
+                <div class="row justify-content-around">
+                  <div class="col-12 col-md-4">
+                    <dt>Tumbet</dt>
+                    <dd>Pimiento, patata, calabacin y berenjena asada con salsa de tomate</dd>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <dt>Huevos con Tumbet</dt>
+                    <dd>Tumbet acompañado con huevos fritos</dd>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <dt>Lomo con Tumbet</dt>
+                    <dd>Tumbet acompañado con lomo a la plancha</dd>
+                  </div>
+                </div>
+                <div class="row justify-content-around">
+                  <div class="col-12 col-md-4">
+                    <dt>Sopas Mallorquinas</dt>
+                    <dd>Sopa semi seca con cerdo, col, cebolla y ajo entre otros ingredientes.</dd>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <dt>Caracoles con Alioli</dt>
+                    <dd>Caracoles guisados acompañados de salsa Alioli.</dd>
+                  </div>
+                </div>
+              </dl>
             </div>
-            <div class="col-12 col-md-4">
-              <dt>Chipirones crijientes</dt>
-              <dd>Chipirones enharinados y fritos</dd>
+          </div>
+        </section>
+
+        <section class="accordion accordion-item">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#EnsaladaCollapse"
+            aria-expanded="false" aria-controls="EnsaladaCollapse">
+            <h2 class="accordion-header" id="Ensalada">Algo fresco, ensaladas</h2>
+          </button>
+          <div id="EnsaladaCollapse" class="accordion-collapse collapse" aria-labelledby="Ensalada"
+            data-bs-parent="#Menu">
+            <div class="accordion-body">
+              <dl>
+                <div class="row justify-content-around">
+                  <div class="col-12 col-md-4">
+                    <dt>Queso de cabra</dt>
+                    <dd>Lechuga, cebolla, tomate, zanahoria, alcachofa y maíz</dd>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <dt>Vulcano</dt>
+                    <dd>Lechuga, tomate, cebolla frita, atún, queso y alcachofa</dd>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <dt>César</dt>
+                    <dd>Lechuga, pollo, picatostes, parmesano, aceitunas y salsa césar</dd>
+                  </div>
+                </div>
+              </dl>
             </div>
-            <div class="col-12 col-md-4">
-              <dt>Revuelto de setas con gambas o jamón ibérico</dt>
-              <dd>Huevos revueltos con setas acompañadas de gambas o jamón</dd>
+          </div>
+        </section>
+
+        <section class="accordion accordion-item">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#HuevosCollapse"
+            aria-expanded="false" aria-controls="HuevosCollapse">
+            <h2 class="accordion-header" id="Huevos">Una de huevos fritos con patatas</h2>
+          </button>
+          <div id="HuevosCollapse" class="accordion-collapse collapse" aria-labelledby="Huevos" data-bs-parent="#Menu">
+            <div class="accordion-body">
+              <dl>
+                <div class="row justify-content-around">
+                  <div class="col-12 col-md-4">
+                    <dt>Con jamón serrano o chorizo</dt>
+                    <dd>Dos huevos fritos sobre una cama de patatas fritas con jamón o chorizo</dd>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <dt>Con jamón ibérico</dt>
+                    <dd>Dos huevos fritos sobre una cama de patatas fritas con jamón ibérico</dd>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <dt>Con escalope</dt>
+                    <dd>Dos huevos fritos sobre una cama de patatas fritas con escalope de pollo</dd>
+                  </div>
+                </div>
+              </dl>
             </div>
-            <div class="col-12 col-md-4">
-              <dt>Mejillones tigre</dt>
-              <dd>Ración de mejillones rellenos, rebozados y fritos</dd>
+          </div>
+        </section>
+
+        <section class="accordion accordion-item">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#DulceCollapse"
+            aria-expanded="false" aria-controls="DulceCollapse">
+            <h2 class="accordion-header" id="Dulce">Lo más dulce</h2>
+          </button>
+          <div id="DulceCollapse" class="accordion-collapse collapse" aria-labelledby="Dulce" data-bs-parent="#Menu">
+            <div class="accordion-body">
+              <dl>
+                <div class="row justify-content-around">
+                  <div class="col-12 col-md-4">
+                    <dt>Flan</dt>
+                    <dd>Flan de huevo acompañado con nata montada y caramelo</dd>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <dt>Pudin</dt>
+                    <dd>Pudin casero acompañado con nata montada y caramelo</dd>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <dt>Queso con membrillo</dt>
+                    <dd>Queso manchego acompañado de membrillo</dd>
+                  </div>
+                </div>
+                <div class="row justify-content-around">
+                  <div class="col-12 col-md-4">
+                    <dt>Brownie de chocolate</dt>
+                    <dd>Brownie con helado acompañado de una bola de helado de vainilla</dd>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <dt>Coulant de chocolate</dt>
+                    <dd>Coulant de chocolate acompañado de una bola de helado de vainilla</dd>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <dt>Gató de almendras</dt>
+                    <dd>Bizcocho de almendras típico mallorquin acompañado de una bola de helado de almendras</dd>
+                  </div>
+                </div>
+                <div class="row justify-content-around">
+                  <div class="col-12 col-md-4">
+                    <dt>Cañitas de la abuela</dt>
+                    <dd>Cañitas de hojaldre típicas de Galicia rellenas de crema pastelera</dd>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <dt>Tarta de Santiago</dt>
+                    <dd>Tarta de almendras típica de Galicia</dd>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <dt>Tarta de queso de la viña</dt>
+                    <dd>Tarta de queso casera al estilo de la viña</dd>
+                  </div>
+                </div>
+                <div class="row justify-content-around">
+                  <div class="col-12 col-md-4">
+                    <dt>Un poco de todo</dt>
+                    <dd>Variado de postres.</dd>
+                  </div>
+                </div>
+              </dl>
             </div>
-          </dl>
-        </div>
-      </section>
-      <section class="row text-center .mx-auto cartaInfo">
-        <button data-bs-toggle="collapse" data-bs-target="#Tablas">
-          <h2>Tablas Artesanas</h2> Los mejores jamnoes, queso y embutidos acompañado con pan tostado, aceite y tomate
-        </button>
-        <div id="Tablas" class="collapse">
-          <dl class="row">
-            <div class="col-12 col-md-4">
-              <dt>Tabla de Jamón Ibérico de cebo</dt>
-              <dd>Con jamón ibérico de cebo cortado a mano y al momento</dd>
-              </dd>
-            </div>
-            <div class="col-12 col-md-4">
-              <dt>Tabla de Jamón Serrano</dt>
-              <dd>Con jamón serrano cortado a mano y al momento</dd>
-            </div>
-            <div class="col-12 col-md-4">
-              <dt>Tabla de Jamón Ibérico de cebo y queso</dt>
-              <dd>Con jamón ibérico de cebo cortado a mano y al momento. Acompañado de un surtido de quesos.</dd>
-            </div>
-            <div class="col-12 col-md-4">
-              <dt>Tabla de Jamón Serrano y queso</dt>
-              <dd>Con jamón serrano cortado a mano y al momento. Acompañado de un surtido de quesos.</dd>
-            </div>
-            <div class="col-12 col-md-4">
-              <dt>Tabla de queso</dt>
-              <dd>Surtido de nuestros mejores quesos</dd>
-            </div>
-            <div class="col-12 col-md-4">
-              <dt>Tabla Vulcano</dt>
-              <dd>Con jamón serrano, queso, lomo, chorizo y salchichón</dd>
-            </div>
-          </dl>
-        </div>
-      </section>
-      <section class="row text-center .mx-auto cartaInfo">
-        <button data-bs-toggle="collapse" data-bs-target="#Carnes">
-          <h2>Carnes clásicas</h2> Para los amantes de la mejor carne a la brasa.
-        </button>
-        <div id="Carnes" class="collapse">
-          <dl class="row">
-            <div class="col-12 col-md-4">
-              <dt>Entrecot</dt>
-              <dd>El corte clásico de ternera que no defrauda.</dd>
-              </dd>
-            </div>
-            <div class="col-12 col-md-4">
-              <dt>Entrecot madurado</dt>
-              <dd>Carne madurada 45 días para potenciar el sabor y mejorar la textura.</dd>
-            </div>
-            <div class="col-12 col-md-4">
-              <dt>Chuleton</dt>
-              <dd>Si quieres darte un homenaje, este es tu corte.</dd>
-            </div>
-            <div class="col-12 col-md-4">
-              <dt>Chuleton madurado</dt>
-              <dd>Carne madurada 45 días para potenciar el sabor y mejorar la textura.</dd>
-            </div>
-            <div class="col-12 col-md-4">
-              <dt>Solomillo de ternera</dt>
-              <dd>El corte más gourmet.</dd>
-            </div>
-            <div class="col-12 col-md-4">
-              <dt>Churrasco</dt>
-              <dd>Corte de costilla de ternera al estilo gallego</dd>
-            </div>
-            <div class="col-12 col-md-4">
-              <dt>Parrillada de carne</dt>
-              <dd>Lomo de cerdo, pechuga de pollo, churrasco. Para los indecisos</dd>
-            </div>
-            <div class="col-12 col-md-4">
-              <dt>Torrada</dt>
-              <dd>Sobrasada, panceta.Lo mejores cortes de Mallorca.</dd>
-            </div>
-            <div class="col-12 col-md-4">
-              <dt>Chuletas de cordero</dt>
-              <dd>Chuletas de cordero a la brasa aliñadas.</dd>
-            </div>
-          </dl>
-        </div>
-      </section>
-      <section class="row text-center .mx-auto cartaInfo">
-        <button data-bs-toggle="collapse" data-bs-target="#Burguer">
-          <h2>Hamburguesas</h2> 200 gramos de carne gallega acompañada con patatas fritas.
-        </button>
-        <div id="Burguer" class="collapse">
-          <dl class="row">
-            <div class="col-12 col-md-4">
-              <dt>Clasica</dt>
-              <dd>Lechuga, tomate, y queso.</dd>
-              </dd>
-            </div>
-            <div class="col-12 col-md-4">
-              <dt>Vulcano</dt>
-              <dd>A la clásica le añadimos bacon, huevo, y salsa Vulcano.</dd>
-            </div>
-            <div class="col-12 col-md-4">
-              <dt>Balear</dt>
-              <dd>Sobrasada, camaiot, queso mahones, lechuga, tomate.</dd>
-            </div>
-            <div class="col-12 col-md-4">
-              <dt>Ibérica</dt>
-              <dd>Jamón ibérico, bacon y queso.</dd>
-            </div>
-            <div class="col-12 col-md-4">
-              <dt>Gourmet</dt>
-              <dd>Queso azul, mermelada de arandanos, tomate y lechuga.</dd>
-            </div>
-          </dl>
-        </div>
-      </section>
-      <section class="row text-center .mx-auto cartaInfo">
-        <button data-bs-toggle="collapse" data-bs-target="#Mar">
-          <h2>Algo del mar</h2> Del mar a la brasa, de la brasa a tu mesa.
-        </button>
-        <div id="Mar" class="collapse">
-          <dl class="row">
-            <div class="col-12 col-md-4">
-              <dt>Calamar a la brasa</dt>
-              <dd>Acompañado de patatas fritas, asada o ensalada.</dd>
-              </dd>
-            </div>
-            <div class="col-12 col-md-4">
-              <dt>Sepia a la brasa</dt>
-              <dd>Acompañado de patatas fritas, asada o ensalada.</dd>
-            </div>
-            <div class="col-12 col-md-4">
-              <dt>Gambas langostineras a la brasa</dt>
-              <dd>Acompañado de patatas fritas, asada o ensalada.</dd>
-            </div>
-            <div class="col-12 col-md-4">
-              <dt>Pulpo a la gallega</dt>
-              <dd>Pulpo, mezcla de pimentón dulce y picante, patata y aceite de oliva virgen extra. Combinación perfecta.</dd>
-            </div>
-            <div class="col-12 col-md-4">
-              <dt>Pulpo a la brasa</dt>
-              <dd>Acompañado de patatas fritas, asada o ensalada.</dd>
-            </div>
-          </dl>
-        </div>
-      </section>
+          </div>
+        </section>
+
     </article>
 
-    <article id="Ubicacion" class="tab-pane fade"> 
-      <h1 class="text-center">Horario y ubicación</h1>
+    <article id="Ubicacion" class="tab-pane fade">
+      <h1 class="text-center">Ubicación y horario</h1>
       <section class="row">
+        <div class="col-xl-6 col-sm-12 row justify-content-center">
+          <h2 class="text-center">Ubicación</h2>
+          <p class="text-center">Nuestra brasería se encuentra ubicada en <a target="_blank"
+              href="https://www.google.com/maps/place/Vulcano+Brasería+Cafetería/@39.575144,2.658753,18z/data=!4m5!3m4!1s0x0:0x4fc1ab3bb8781186!8m2!3d39.5751516!4d2.6587375?hl=es">
+              Carrer Aragó nº31</a>, a pocos metros del centro de Palma.</p>
+          <iframe id="Mapa" class="mx-auto d-block img-fluid col-11"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d914.298128816024!2d2.6585477802071638!3d39.57493612720438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4fc1ab3bb8781186!2sVulcano%20Braser%C3%ADa%20Cafeter%C3%ADa!5e0!3m2!1ses!2ses!4v1666006975263!5m2!1ses!2ses"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
         <div class="container col-xl-6 col-sm-12 row justify-content-center">
           <div id="Horario" class="col-8 text-center">
             <h2>Horario</h2>
@@ -274,19 +556,13 @@
             <h3>LUNES CERRADO</h3>
           </div>
         </div>
-        <div class="col-xl-6 col-sm-12 row justify-content-center">
-          <iframe id="Mapa" class="mx-auto d-block img-fluid col-11"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d914.298128816024!2d2.6585477802071638!3d39.57493612720438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4fc1ab3bb8781186!2sVulcano%20Braser%C3%ADa%20Cafeter%C3%ADa!5e0!3m2!1ses!2ses!4v1666006975263!5m2!1ses!2ses"
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
       </section>
     </article>
 
     <article id="Contacto" class="tab-pane fade">
       <h1 class="text-center">Contacto</h1>
       <section>
-        <p class="text-justify"> Para contactar con el restaurante llame al <a href="tel:971068074">971068074</a> o
+        <p class="text-center"> Para contactar con el restaurante llame al <a href="tel:971068074">971068074</a> o
           envie un correo a la dirección
           <a href="mailto:vulcanoaragon31@gmail.com">vulcanoaragon31@gmail.com</a>. Si lo prefiere puede rellenar el
           siguiente formulario y nos pondremos en contacto con usted en la mayor brevedad posible.
@@ -294,10 +570,9 @@
       </section>
       <section>
         <h2 class="text-center">Formulario</h2>
-        <p class="text-justify">Para realizar una reserva, contactar con los gerentes del local o dejar algún comentario
-          sobre el restaurante
-          le invitamos a completar el siguiente formulario y nos pondremos en contacto con usted con la mayor brevedad
-          posible:</p>
+        <p class="text-center">Para realizar una reserva le invitamos a completar el siguiente formulario y nos
+          pondremos en
+          contacto con usted con la mayor brevedad posible:</p>
         <form class="container-fluid" action="contacto.php" method="post">
           <div class="row">
             <label for="nombreyapellidos"> Nombre y apellidos: </label>
@@ -307,24 +582,20 @@
             <label for="email"> Email de contacto: </label>
             <input type="email" id="email" name="email">
           </div>
-          <div class="row">
-            <label for="motivo">Motivo del correo: </label>
-            <select name="motivo" id="motivo">
-              <option value="reserva">Reserva</option>
-              <option value="gerencia">Contacto con los gerentes</option>
-              <option value="opinion">Comentario u opinión</option>
-            </select>
+          <div class="row fechahora">
+            <label for="reserva">Fecha de reserva: </label>
+            <input type="date" id="reserva" name="reserva" value="2022-10-28" min="2022-10-28" max="2023-10-28">
           </div>
-          <div class="row">
-            <label for="mensaje">Mensaje a enviar: </label>
-            <textarea id="mensaje" name="mensaje"></textarea>
+          <div class="row fechahora">
+            <label for="hora">Hora de la reserva:</label>
+            <input type="time" id="hora" name="hora" min="09:00" max="20:00" required>
           </div>
-
           <div id="terminos">
             <input type="checkbox" id="condiciones" name="condiciones">
             <label for="condiciones">Acepto los <a href="index.html">terminos y
                 condiciones.</a></label>
           </div>
+
           <input class="boton" type="submit" value="Contactar">
         </form>
       </section>
