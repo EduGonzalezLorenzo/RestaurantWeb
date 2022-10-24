@@ -71,7 +71,7 @@ dl>div>div {
   border-bottom: 1px solid;
 }
 
-dl > div > div > img{
+.imgCarta{
   width: 200px;
   margin: 10px;
 }
