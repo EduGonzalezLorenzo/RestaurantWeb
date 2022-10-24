@@ -5,6 +5,8 @@
         "start": "npx parcel src/index.html"
     },
     "devDependencies": {
+        "@parcel/packager-raw-url": "^2.7.0",
+        "@parcel/transformer-webmanifest": "^2.7.0",
         "parcel": "^2.7.0",
         "prettier": "^2.7.1"
     }

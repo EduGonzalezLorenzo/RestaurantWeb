@@ -13,27 +13,14 @@
   src: url(fonts/Kalam-Bold.ttf);
 }
 
-button{
-  text-align: center !important;
-}
-header{
+header {
   background-color: black;
-  color: white;
-}
-
-header ul{
-  justify-content: center;
-}
-
-a{
- text-decoration: none;
- color: white;
 }
 
 body {
   background-image: url("img/fondo.jpg");
   background-size: cover;
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
@@ -51,12 +38,11 @@ article {
   margin-right: 5%;
   margin-left: 5%;
   padding: 2%;
-
 }
 
-#menu {
+li{
   font-family: menuFont;
-  font-size: 40px;
+  font-size: 20px;
 }
 
 section {
@@ -75,16 +61,28 @@ main {
 
 /* CSS Carta*/
 
-dt{
+dt {
   padding-top: 5%;
+  font-size: larger;
 }
 
-dd{
-  padding-bottom: 5%;
-}
 
-dl > div > div{
+dl>div>div {
   border-bottom: 1px solid;
+}
+
+dl > div > div > img{
+  width: 200px;
+  margin: 10px;
+}
+
+.precio{
+  font-size: large;
+  font-weight: bold;
+}
+
+.alergenos{
+  color:rgb(255, 0, 0);
 }
 
 /*CSS Horario y Mapa*/
@@ -106,7 +104,7 @@ dl > div > div{
 
 /* CSS contacto*/
 
-.fechahora{
+.fechahora {
   width: min-content;
 }
 
@@ -122,6 +120,12 @@ label {
 
 input, select, textarea {
   min-width: 280px;
+  max-width: 30%;
+}
+
+#terminos > label{
+  font-size: 13px;
+  
 }
 
 #terminos {
@@ -149,6 +153,21 @@ input, select, textarea {
   color: white;
 }
 
-form > div{
+form > div {
+  margin-top: 2%;
+  
+}
+
+/* Footer css*/
+footer {
+  background-color: white;
+  padding: 2%;
+}
+
+footer>a {
   margin: 1%;
+}
+
+.fa:hover {
+  opacity: 0.5;
 }
