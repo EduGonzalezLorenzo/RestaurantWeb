@@ -33,16 +33,16 @@
 
   <header class="fixed-top">
     <ul class="nav nav-tabs justify-content-around row" role="tablist">
-      <li class="nav-item col-3">
+      <li class="nav-item col-6 col-sm-3">
         <a class="nav-link text-center active" data-bs-toggle="tab" href="#Inicio">Inicio</a>
       </li>
-      <li class="nav-item col-3">
+      <li class="nav-item col-6 col-sm-3">
         <a class="nav-link text-center" data-bs-toggle="tab" href="#Carta">Carta</a>
       </li>
-      <li class="nav-item col-3">
+      <li class="nav-item col-6 col-sm-3">
         <a class="nav-link text-center" data-bs-toggle="tab" href="#Ubicacion">Ubicación</a>
       </li>
-      <li class="nav-item col-3">
+      <li class="nav-item col-6 col-sm-3">
         <a class="nav-link text-center" data-bs-toggle="tab" href="#Contacto">Contacto</a>
       </li>
     </ul>
@@ -786,18 +786,17 @@
             <label for="comentarios">Comentarios:</label>
             <textarea id="comentarios" name="comentarios"></textarea>
           </div>
-          <div class="row fechahora">
+          <div class="row">
             <label for="reserva">Fecha de reserva: </label>
             <input type="date" id="reserva" name="reserva" value="2022-10-28" min="2022-10-28" max="2023-10-28">
           </div>
-          <div class="row fechahora">
+          <div class="row">
             <label for="hora">Hora de la reserva:</label>
             <input type="time" id="hora" name="hora" min="09:00" max="20:00" required>
           </div>
           <div id="terminos">
             <input type="checkbox" id="condiciones" name="condiciones">
-            <label for="condiciones">Aceptar <a href="index.html">terminos y
-                condiciones.</a></label>
+            <label for="condiciones">Aceptar <a href="index.html">terminos y condiciones.</a></label>
           </div>
           <input class="boton" type="submit" value="Contactar">
         </form>

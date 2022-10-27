@@ -119,13 +119,7 @@ label {
 }
 
 input, select, textarea {
-  min-width: 280px;
-  max-width: 30%;
-}
-
-#terminos > label{
-  font-size: 13px;
-  
+  min-width: 200px;
 }
 
 #terminos {
